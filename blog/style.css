@@ -6,16 +6,17 @@ h1{
 }
 p{
   text-align: center;
-  font-size: 
 }
 img{
-  border: 5px solid;
+  border: 5px solid #ff8c00;
 }
 
 .imgExample{
   width: 25vw;
   border-radius: 30px;
   margin: auto;
-  border-color: #ff8c00;
-  border-width: 5px;
+}
+
+table{
+  margin: 25px;
 }
