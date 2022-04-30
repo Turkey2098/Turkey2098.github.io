@@ -24,3 +24,18 @@ img{
   display: block;
   margin: auto;
 }
+.text code {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  display: block;
+  width: 50%;
+  word-break: break-all;
+  background-color: #eeeeee;
+  margin: auto auto 30px;
+  padding: 15px;
+  border-radius: 15px;
+  left: 100%
+}
+.text code span {
+  padding-left: 1em;
+}

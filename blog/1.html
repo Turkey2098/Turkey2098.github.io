@@ -52,11 +52,44 @@
       consumer end, there were no games for me to play. And so over the course
       of a half a year I, with help from some of my friends coded an unblocked
       games website. It looks exactly like the classic ones but still able to be
-      edited, and added on to, to keep up with the lastest games. Here is a little picture of it
+      edited, and added on to, to keep up with the lastest games. Here is a
+      little picture of it:
+    </p>
+
+    <img
+      src="https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/Screenshot%202022-04-30%204.33.44%20PM.png?v=1651350839511"
+      onclick="window.location.replace('https://unblockedgames66.co.vu')"
+      style="cursor: pointer"
+    />
+    
+    <p>
+      And here is what the code may look like:
     </p>
     
-    <img
-      src="https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/Screenshot%202022-04-30%204.33.44%20PM.png?v=1651350839511" onclick="window.location.replace('https://unblockedgames66.co.vu')"
-    />
+    <code>
+        function noBlocksi() {<br />
+        <span></span>location.replace("https://google.com");<br />
+        }<br />
+        if (localStorage.noBlocksi) {<br />
+        <span></span>noBlocksi();<br />
+        } else {<br />
+        <span></span> var frame = document.createElement("iframe");<br />
+        <span></span> frame.style.display = "none";<br />
+        <span></span> frame.src = "/ghlpmldmjjhmdgmneoaibbegkjjbonbk";<br />
+        <span></span> document.documentElement.appendChild(frame);<br />
+        <span></span> frame.onload = function () {<br />
+        <span></span><span></span> setTimeout(function () {<br />
+        <span></span><span></span><span></span> if
+        (frame.contentWindow.document) {<br />
+        <span></span><span></span><span></span><span></span> // Frame wasn't
+        redirected, likely no Blocksi<br />
+        <span></span><span></span><span></span
+        ><span></span> localStorage.noBlocksi = true;<br />
+        <span></span><span></span><span></span><span></span> noBlocksi();<br />
+        <span></span><span></span><span></span> }<br />
+        <span></span><span></span> }, 500);<br />
+        <span></span>};<br />
+        }
+      </code>
   </body>
 </html>
