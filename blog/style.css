@@ -1,5 +1,5 @@
 body{
-  padding: 50px;
+  padding: 75px;
 }
 h1{
   text-align: center;
@@ -8,10 +8,14 @@ p{
   text-align: center;
   font-size: 
 }
+img{
+  border: 5px solid;
+}
 
 .imgExample{
   width: 25vw;
-  border-radius: 25px;
-  padding: 20px;
+  border-radius: 30px;
   margin: auto;
+  border-color: #ff8c00;
+  border-width: 5px;
 }
