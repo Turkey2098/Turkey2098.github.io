@@ -1,3 +1,17 @@
+body{
+  padding: 50px;
+}
+h1{
+  text-align: center;
+}
 p{
-  color: blue;
+  text-align: center;
+  font-size: 
+}
+
+.imgExample{
+  width: 25vw;
+  border-radius: 25px;
+  padding: 20px;
+  margin: auto;
 }
