@@ -8,7 +8,14 @@ h1{
 }
 p{
   text-align: center;
-  font-size: 
+  font-size: 30px;
+  font-family: 'Radio Canada', sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.date{
+  font-size: 20px;
+  font-family: 'Radio Canada', sans-serif;
 }
 img{
   border: 5px solid #ff8c00;
