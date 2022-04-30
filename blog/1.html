@@ -65,31 +65,60 @@
     <p>
       And here is what the code may look like:
     </p>
-    
-    <code>
-        function noBlocksi() {<br />
-        <span></span>location.replace("https://google.com");<br />
-        }<br />
-        if (localStorage.noBlocksi) {<br />
-        <span></span>noBlocksi();<br />
-        } else {<br />
-        <span></span> var frame = document.createElement("iframe");<br />
-        <span></span> frame.style.display = "none";<br />
-        <span></span> frame.src = "/ghlpmldmjjhmdgmneoaibbegkjjbonbk";<br />
-        <span></span> document.documentElement.appendChild(frame);<br />
-        <span></span> frame.onload = function () {<br />
-        <span></span><span></span> setTimeout(function () {<br />
-        <span></span><span></span><span></span> if
-        (frame.contentWindow.document) {<br />
-        <span></span><span></span><span></span><span></span> // Frame wasn't
-        redirected, likely no Blocksi<br />
-        <span></span><span></span><span></span
-        ><span></span> localStorage.noBlocksi = true;<br />
-        <span></span><span></span><span></span><span></span> noBlocksi();<br />
-        <span></span><span></span><span></span> }<br />
-        <span></span><span></span> }, 500);<br />
-        <span></span>};<br />
-        }
-      </code>
+    <p class="code">
+  <html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot_2022-01-10_161756_ccexpress.png?v=1641849861252"/>    
+    <title>Unblocked Games 66 | 18 Second Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+    <div>
+      <div style="float:left; width: 20%;">
+        <img src="https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot_2022-01-10_161756_ccexpress.png?v=1641849861252" style="width: 100%; height: auto;">
+      </div>
+      <div style="float:left; width: 80%;">
+        <h1>Unblocked Games 66</h1>
+      </div>
+    </div>
+    <ul class="top">
+      <li><a class="topLink" href="index.html">Home</a></li>
+      <li><a class="topLink" href="recentAnnouncements.html">Recent Anouncements</a></li>
+      <li><a class="topLink" href="reportABug.html">Report A Bug</a></li>
+    </ul>
+    <hr>
+
+    <div class="row">
+      <div class="column left">
+        <input id="searchbar" onkeyup="search_games()" type="text" name="search" placeholder="Search Games...">
+        <ul>
+          <li class="games"><a href="18secondChallenge.html"></a></li>
+          <li class="games"><a href="2048.html">2048</a></li>
+          <li class="games"><a href="2048Cupcakes.html">2048: Cupcakes</a></li>
+        </ul>
+      </div>
+      <div class="column right">
+        <div>
+          <div style="float:left; width: 85%;">
+            <p id="gameName">Current Game Name</p>
+          </div>
+          <div style="float:left; width: 15%;">
+            <img id="fullScreenButton" src="https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot%202022-02-11%2010.27.47%20AM.png?v=1644593288281" onclick="openFullscreen();">
+          </div>
+        </div>
+        <iframe id="iframe" src="game source"></iframe>
+        <h5>Highscores:</h5>
+        <br>
+        <p>1. Name - Score</p>
+        <p>2. Name - Score</p>
+      </div>
+    </div>
+  </body>
+</html>
+      </p>
   </body>
 </html>
