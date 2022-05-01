@@ -73,14 +73,20 @@
       <a href="https://dublinschools.xyz">Derin</a>) We've been able to cut down
       the time spent adding games. When you add a game, you will make a new
       file, change the name, yadda yadda yadda. After you do all that input this
-      code into your code editors terminal(replace the text where it says):
+      code into your code editors terminal (replace the text where it says):
     </p>
 
     <pre><code>
 find . -type f -exec sed -i 's/&lt;li class="games"&gt;&lt;a href=\"fileRightAfter.html/&lt;li class="games"&gt;&lt;a href=\"fileName.html\"&gt;Game Name&lt;\/a&gt;&lt;\/li&gt;\n          &/g' {} +
     </code></pre>
 
-    <p>Here is the HTML:</p>
+    <p>
+      This piece of code basically finds the game right below the new game in the
+      navbar and pastes a new game in the navbar on every file, saving you so
+      much time.
+    </p>
+
+    <p>Here is the HTML to the website:</p>
 
     <pre><code>
 &lt;html&gt;
