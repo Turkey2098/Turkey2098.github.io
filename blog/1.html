@@ -72,10 +72,13 @@
       help of some friends. (mainly
       <a href="https://dublinschools.xyz">Derin</a>) We've been able to cut down
       the time spent adding games. When you add a game, you will make a new
-      file, change the name, yadda yadda yadda. But then using this command in
-      your code editors terminal: <pre><code>find . -type f -exec sed -i 's/&lt;li class="games"&gt;&lt;a href=\"fileRightAfter.html/&lt;li class="games"&gt;&lt;a href=\"fileName.html\"&gt;Game Name&lt;\/a&gt;&lt;\/li&gt;\n          &/g' {} +</code></pre>
-
+      file, change the name, yadda yadda yadda. After you do all that input this
+      code into your code editors terminal(replace the text where it says):
     </p>
+
+    <pre><code>
+find . -type f -exec sed -i 's/&lt;li class="games"&gt;&lt;a href=\"fileRightAfter.html/&lt;li class="games"&gt;&lt;a href=\"fileName.html\"&gt;Game Name&lt;\/a&gt;&lt;\/li&gt;\n          &/g' {} +
+    </code></pre>
 
     <p>Here is the HTML:</p>
 
