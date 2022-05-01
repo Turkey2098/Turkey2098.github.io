@@ -2,7 +2,6 @@ body {
   padding: 60px 100px;
   margin: auto;
   color:black;
-  background-color: #964B00;
 }
 @font-face {
   font-family: lucid;
@@ -43,7 +42,4 @@ pre {
   border-radius: 15px;
   text-align: left;
   overflow: auto;
-}
-span {
-  padding-left: 1em;
 }
