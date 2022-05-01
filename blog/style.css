@@ -1,23 +1,29 @@
-body{
+body {
   padding: 60px 100px;
   margin: auto;
 }
-h1{
+@font-face {
+  font-family: lucid;
+  src: url("https://cdn.glitch.global/e23c6d22-e86e-4765-a3d2-14f786559329/Euclid%20Circular%20A%20Medium.ttf?v=1651332812845");
+}
+h1 {
   text-align: center;
+  font-family: lucid;
+
   font-size: 60px;
 }
-p{
+p {
   text-align: center;
   font-size: 30px;
-  font-family: 'Radio Canada', sans-serif;
+  font-family: "Radio Canada", sans-serif;
   margin-left: 150px;
   margin-right: 150px;
 }
-.date{
+.date {
   font-size: 20px;
-  font-family: 'Radio Canada', sans-serif;
+  font-family: "Radio Canada", sans-serif;
 }
-img{
+img {
   border: 5px solid #ff8c00;
   width: 50vw;
   border-radius: 30px;
