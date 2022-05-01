@@ -11,7 +11,6 @@ h1 {
   text-align: center;
   font-family: lucid;
   color:#070D0D;
-
   font-size: 40px;
 }
 p {
@@ -27,7 +26,7 @@ p {
 }
 img {
   border: 2px solid #070D0D;
-  width: 50vw;
+  width: 70%;
   border-radius: 30px;
   display: block;
   margin: auto;
