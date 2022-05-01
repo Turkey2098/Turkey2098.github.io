@@ -1,6 +1,8 @@
 body {
   padding: 60px 100px;
   margin: auto;
+  color:black;
+  background-color: #964B00;
 }
 @font-face {
   font-family: lucid;
@@ -9,12 +11,13 @@ body {
 h1 {
   text-align: center;
   font-family: lucid;
+  color:#070D0D;
 
-  font-size: 60px;
+  font-size: 40px;
 }
 p {
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   font-family: "Radio Canada", sans-serif;
   margin-left: 150px;
   margin-right: 150px;
@@ -24,25 +27,22 @@ p {
   font-family: "Radio Canada", sans-serif;
 }
 img {
-  border: 5px solid #ff8c00;
+  border: 2px solid #070D0D;
   width: 50vw;
   border-radius: 30px;
   display: block;
   margin: auto;
 }
-.code {
-  font-family: "Roboto Mono", monospace;
+pre {
   font-size: 15px;
   display: block;
-  width: 65%;
-  word-break: break-all;
+  width: 70%;
   background-color: #eeeeee;
   margin: auto auto 30px;
   padding: 15px;
   border-radius: 15px;
   text-align: left;
   overflow: auto;
-  white-space: nowrap;
 }
 span {
   padding-left: 1em;
