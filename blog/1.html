@@ -62,7 +62,8 @@
       style="cursor: pointer"
     />
 
-    <p>And here is the starting code:</p>
+    <p>Here is the HTML:</p>
+    
     <p class="code">
       &lt;html&gt;<br> 
       <span></span>&lt;head&gt;<br> 
@@ -114,6 +115,56 @@
       <span></span><span></span>&lt;/div&gt;<br> 
       <span></span>&lt;/body&gt;<br> 
       &lt;/html&gt;<br>
+    </p>
+    
+    <p>
+      Here is the Javascript:
+    </p>
+    
+    <p class="code">
+      if (!location.protocol[5]) {<br>
+        location.protocol = "https:"<br>
+      }<br>
+           
+<!--          jack is this a good font for h1?-  https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/7eee18ac-923b-4d7b-b4c0-bab3b50a8a3a.image.png?v=1651421870081  
+ 
+
+its from a previous website i made. ignore the text, it works, i may
+ 
+change 
+-->
+
+
+document.querySelector('img').onclick=function(){
+  location.href='/'
+}
+
+var game = document.getElementById("iframe");
+function openFullscreen() {
+  if (game.requestFullscreen) {
+    game.requestFullscreen();
+  } else if (game.webkitRequestFullscreen) {
+    /* Safari */
+    game.webkitRequestFullscreen();
+  } else if (game.msRequestFullscreen) {
+    /* IE11 */
+    game.msRequestFullscreen();
+  }
+}
+
+function search_games() {
+  let input = document.getElementById("searchbar").value;
+  input = input.toLowerCase();
+  let x = document.getElementsByClassName("games");
+
+  for (var i = 0; i < x.length; i++) {
+    if (!x[i].textContent.toLowerCase().includes(input)) {
+      x[i].style.display = "none";
+    } else {
+      x[i].style.display = "list-item";
+    }
+  }
+}
     </p>
     
     
