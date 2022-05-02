@@ -25,6 +25,7 @@ p {
 .date {
   font-size: 20px;
   font-family: "Radio Canada", sans-serif;
+  opacity: .7;
 }
 img {
   border: 4px solid black;
