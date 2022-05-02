@@ -2,7 +2,7 @@ body {
   padding: 60px 100px;
   margin: auto;
   color: black;
-  background-color: #D2691E
+  background-color: 
 }
 @font-face {
   font-family: lucid;
@@ -27,7 +27,7 @@ p {
   font-family: "Radio Canada", sans-serif;
 }
 img {
-  border: 4px solid #070D0D;
+  border: 4px solid #8b4513;
   width: 70%;
   border-radius: 30px;
   display: block;
@@ -43,4 +43,8 @@ pre {
   border-radius: 15px;
   text-align: left;
   overflow: auto;
+}
+
+a{
+  color: 
 }
