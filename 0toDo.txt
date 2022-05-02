@@ -1,0 +1,1 @@
+change blog URL's to /blog/1/
