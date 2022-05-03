@@ -1,1 +1,7 @@
-change blog URL's to /blog/1/
+push to github
+
+git add --all
+
+git commit -m "Initial commit"
+
+git push -u origin master
