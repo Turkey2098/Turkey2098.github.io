@@ -30,17 +30,18 @@ p {
   color: #c8dbed;
 }
 img {
-  border: 4px solid black;
+  border: 4px solid #0F202F;
   width: 70%;
   border-radius: 30px;
   display: block;
   margin: auto;
 }
 pre {
+  border: 4px solid #0F202F;
   font-size: 15px;
   display: block;
   width: 70%;
-  background-color: #eeeeee;
+  background-color: #E4EDF6;
   margin: auto auto 30px;
   padding: 15px;
   border-radius: 15px;
