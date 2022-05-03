@@ -1,9 +1,7 @@
 
 function previous() {
-  var x=window.location.pathname
-  y=x-"/blog/"
-  //window.location.replace('https://turkey2098.co.vu/blog/' + x)
-  alert('https://turkey2098.co.vu/blog/' + y)
+  var x = window.location.pathname.split('/')
+  var y = x[2]
+  var z = y-1
+  window.location.href(z)
 }
-
-
