@@ -49,3 +49,40 @@ pre {
 a{
   color: 
 }
+
+@media (max-width: 1300px) {
+  body {
+    padding: 30px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .post {
+    width: 40%;
+  }
+  p,
+  .text *:not(h1, h2, .date, .media *) {
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  body,
+  .text {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .post,
+  p,
+  .button,
+  .text * {
+    width: 100% !important;
+  }
+  .text p {
+    text-indent: 0px;
+  }
+  .post {
+    margin: 15px;
+  }
+}
