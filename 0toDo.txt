@@ -5,3 +5,7 @@ git add --all
 git commit -m "Initial commit"
 
 git push -u origin master
+
+
+
+change the next and previous button to work on both github and co.vu
