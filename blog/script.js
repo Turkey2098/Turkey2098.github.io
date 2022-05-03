@@ -1,9 +1,9 @@
-var x=2
 
 function previous() {
-  
-  x+=1
-  window.location.replace('https://turkey2098.co.vu/blog/' + x)
+  var x=window.location.pathname
+  y=x-"/blog/"
+  //window.location.replace('https://turkey2098.co.vu/blog/' + x)
+  alert('https://turkey2098.co.vu/blog/' + y)
 }
 
 
