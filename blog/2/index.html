@@ -4,105 +4,344 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/android-chrome-512x512.png?v=1651540685611" />
-    <title>DCS Usernames</title>
+    <title>Classic Google Sites</title>
     <link rel="stylesheet" href="/blog/style.css" />
   </head>
   <body>
-    <h1>Why Dublin City Schools Feels The Need To Change Our Emails?</h1>
+    <h1>Creating Your Own Unblocked Games Website</h1>
 
-    <p>Who Knows</p>
-
-    <p class="date">5/2/2022</p>
+    <p class="date">4/30/2022</p>
 
     <p>
-      So I'm in 5th period, bored AF, and I get this email from the school. I do
-      what any reasonable person would do and abandon everything I'm doing and
-      read it. Of course I'm expecting some random weekly announcement, event,
-      whatever. Not this. They're going to change our Usernames and Emails.
+      If you haven't been living under a rock for the past 5-10 years, you've
+      seen one of these unblocked games websites:
     </p>
 
     <img
-      src="https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/download%20(6).jpeg?v=1651518693561"
-      style="width: 50%"
+      src="https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/Screenshot%202022-04-30%203.01.33%20PM.png?v=1651345324046"
     />
 
     <p>
-      Now, instead of your username being "graduationDateLastName_firstName"
-      <br />
-      It will now be "lastName.number" with that number being there for
-      duplicate lastnames (higher number --&gt; more duplicates). It may look
-      better, but I can assure you, shorter does not mean better. Here's why.
+      While they may look complex to the average non-coder, they are actually
+      just google sites. The thing is though, is that those webistes can't be
+      created anymore.
     </p>
 
     <p>
-      Imagine this, your emailing your friend. You type in his first and last
-      name and boom, you found his email. However with the new emails, it isn't
-      as easy. This time you only type in his last name because his first name
-      doesn't matter, and boom you see 25 emails from Smith.1 to Smith.25. Which
-      one is your friend? It is time for you to put on your thinking cap and
-      solve the problem at hand.
+      In 2016, Google presented the new google sites. Ever since, users have
+      slowly shifted to the newer, nicer, neater version. In May 2021, the
+      creation of classic sites was disabled, and in December 2021, editing
+      classic sites was disabled. All of this, combined with the end of flash in
+      2021, means that classic google sites are slowly going out-of-date.
+    </p>
+
+    <p>
+      Now what does that have to do with most unblocked games websites? As I
+      mentioned before, all the game webistes that you have played were made
+      using classic google sites. So, as games get blocked, stop working, or
+      change URLs, these websites can't keeing adding, removing, changing, and
+      fixing their website.
+    </p>
+
+    <p>
+      You might wonder, "Why can't you just use the new google sites?" Although
+      it may be good for making informational websites, there are not enough
+      tabs or pages in the navbar to fit the 100+ games needed for a game
+      website.
+    </p>
+
+    <p>
+      Now to get to the point of this whole blog post. In christmas-ish time
+      last year, I had this exact problem but on the consumer end, there were no
+      games for me to play. And so over the course of a half a year I, with help
+      from some of my friends coded an unblocked games website. It looks exactly
+      like the classic ones but still able to be edited, and added on to, to
+      keep up with the lastest games. Here is a little picture of it:
     </p>
 
     <img
-      src="https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/download%20(7).jpeg?v=1651524991151"
-      style="width: 50%"
+      src="https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/Screenshot%202022-04-30%204.33.44%20PM.png?v=1651350839511"
+      onclick="window.location.replace('https://unblockedgames66.co.vu')"
+      style="cursor: pointer"
     />
 
     <p>
-      1. Profile pictures. You reaize that not everyone has the same profile
-      picture. Smart. You start to narrow down the list but then you realize
-      that your friend changed his profile picture for the 15th time this month.
-      You end up narrowing down the amount of emails to 10.
+      If you are planning to make a website using this template, there is
+      something I need to adress. It takes a lot of work/time. Luckily with the
+      help of some friends. (mainly
+      <a href="https://dublinschools.xyz">Derin</a>) We've been able to cut down
+      the time spent adding games. When you add a game, you will make a new
+      file, change the name, yadda yadda yadda. After you do all that input this
+      code into your code editors terminal (replace the text where it says):
     </p>
+
+    <pre><code>
+find . -type f -exec sed -i 's/&lt;li class="games"&gt;&lt;a href=\"fileRightAfter.html/&lt;li class="games"&gt;&lt;a href=\"fileName.html\"&gt;Game Name&lt;\/a&gt;&lt;\/li&gt;\n          &/g' {} +
+    </code></pre>
 
     <p>
-      2. Teachers. All of the teachers have different email endings than
-      students do. You narrow the amount of emails down to 8.
+      This piece of code basically finds the game that you tell it to in the
+      navbar and pastes a new game in the navbar right above it on every file,
+      saving you so much time.
     </p>
+
+    <p>Here is the HTML to the website:</p>
+
+    <pre><code>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot;content=&quot;IE=edge&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot;content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;link rel=&quot;icon&quot;href=&quot;https://cdn.glitch.global/7291e345-21ef-440f-a17b-8a85764c9ade/Screenshot_2022-01-10_161756_ccexpress.png?v=1641849861252&quot;/&gt;<br>
+    &lt;title&gt;Website Name | Current Page&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;script src=&quot;script.js&quot;defer&gt;&lt;/script&gt;
+    &lt;div&gt;
+      &lt;div style=&quot;float:left; width: 20%;&quot;&gt; 
+        &lt;img src=&quot;Logo Or Icon&quot; style=&quot;width: 100%; height: auto;&quot;&gt; 
+      &lt;/div&gt; 
+      &lt;div style=&quot;float:left; width: 80%;&quot;&gt;
+        &lt;h1&gt;Website Name&lt;/h1&gt; 
+      &lt;/div&gt; 
+    &lt;/div&gt; 
+    &lt;ul class=&quot;top&quot;&gt;
+      &lt;li&gt;&lt;a class=&quot;topLink&quot;href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br> 
+      &lt;li&gt;&lt;a class=&quot;topLink&quot;href=&quot;tabFile.html&quot;&gt;Tab File Name&lt;/a&gt;&lt;/li&gt; 
+    &lt;/ul&gt; 
+    &lt;hr&gt;
+    &lt;div class=&quot;row&quot;&gt; 
+      &lt;div class=&quot;column left&quot;&gt;
+        &lt;input id=&quot;searchbar&quot; onkeyup=&quot;search_games()&quot;type=&quot;text&quot; name=&quot;search&quot; placeholder=&quot;Search Games...&quot;&gt; 
+        &lt;ul&gt;
+          &lt;li class=&quot;games&quot;&gt;&lt;a href=&quot;gameFile.html&quot;&gt;Game Name&lt;/a&gt;&lt;/li&gt; 
+          &lt;li class=&quot;games&quot;&gt;&lt;a href=&quot;gameFile.html&quot;&gt;Game Name&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; 
+      &lt;/div&gt; 
+      &lt;div class=&quot;column right&quot;&gt;
+        &lt;div&gt; 
+          &lt;div style=&quot;float:left; width: 85%;&quot;&gt; 
+            &lt;p id=&quot;gameName&quot;&gt;Current Game Playing Name&lt;/p&gt;
+          &lt;/div&gt; 
+          &lt;div style=&quot;float:left; width: 15%;&quot;&gt; 
+            &lt;img id=&quot;fullScreenButton&quot;src=&quot;fullScreenIcon&quot;onclick=&quot;openFullscreen();&quot;&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;iframe id=&quot;iframe&quot; src=&quot;https://gameSource&quot;&gt;&lt;/iframe&gt; 
+        &lt;h5&gt;Highscores:&lt;/h5&gt;
+        &lt;br&gt; 
+        &lt;p&gt;1. Name - Score&lt;/p&gt; 
+        &lt;p&gt;2. Name - Score&lt;/p&gt; 
+      &lt;/div&gt; 
+    &lt;/div&gt; 
+  &lt;/body&gt;
+&lt;/html&gt;
+    </code></pre>
+
+    <p>Here is the Javascript:</p>
+
+    <pre><code>
+if (!location.protocol[5]) {
+  location.protocol = "https:"
+}
+
+document.querySelector('img').onclick=function(){
+  location.href='/'
+}
+
+var game = document.getElementById("iframe");
+function openFullscreen() {
+  if (game.requestFullscreen) {
+    game.requestFullscreen();
+  } else if (game.webkitRequestFullscreen) {
+    /* Safari */
+    game.webkitRequestFullscreen();
+  } else if (game.msRequestFullscreen) {
+    /* IE11 */
+    game.msRequestFullscreen();
+  }
+}
+
+function search_games() {
+  let input = document.getElementById("searchbar").value;
+  input = input.toLowerCase();
+  let x = document.getElementsByClassName("games");
+
+  for (var i = 0; i &lt; x.length; i++) {
+    if (!x[i].textContent.toLowerCase().includes(input)) {
+      x[i].style.display = "none";
+    } else {
+      x[i].style.display = "list-item";
+    }
+  }
+}
+    </code></pre>
+
+    <p>And here is the CSS:</p>
+
+    <pre><code>
+hr { 
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-color: #c8dbed;
+  border-top: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+li a.active {
+  background-color: #92b6db;
+  color: white;
+}
+
+li a:hover {
+
+  transition-duration: .4s;
+  background-color: #92b6db;
+  color:white;
+  transform: scale(1.04);
+}
+
+h1 {
+  text-align: center;
+  font-size: 6.5vw;
+  color: #b4c9e4;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+body {
+  background-color: #343a40;
+  font-family: "Acme", sans-serif;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 17%;
+}
+
+.right {
+  width: 83%;
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+iframe {
+  width: 100%;
+  height: 98vh;
+  position: relative;
+  border: 0px;
+  border-radius: 20px;
+}
+.top {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.topLink {
+  float: left;
+  background-color: #c8dbed;
+  font-size: 15px;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #92b6db;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+p {
+  font-size: 2vw;
+  margin: auto;
+  margin-top: 0px;
+  color: #c8dbed;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+img {
+  height: 300px;
+  border-radius: 20px;
+  border-width: 0px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#searchbar {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+
+#gameName {
+  font-size: 5vw;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#fullScreenButton {
+  margin-top: 0px;
+  width: 66%;
+  height: auto;
+}
+
+#gameMaker {
+  margin-bottom: 20px;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #b4c9e4;
+  margin-bottom: 0px;
+}
+    </code></pre>
 
     <p>
-      3. You come up with a solution. You decide to wait for the end of the day
-      and ask him on the bus what his email is. He tells you his email is
-      Smith.23@dublinstudents.net. You feel so accomplished. You get off the bus
-      and run home, so excited. You pull out your computer, start writing your
-      email, and then it hits you. You could've just told him in-person.
+      If you're looking to check out the website model, or just looking to play
+      some games, here is the website link:
+      <a href="https://unblockedgames66.co.vu">Unblocked Games 66</a>
     </p>
-
-    <p>
-      I realize that this would never happen and if for some reason you are
-      still reading this you are thinking, "This idiot wrote a whole story about
-      some random email change." The only two reason I wrote this in a story
-      format is 1, I thought it would be funnier to share my thoughts this way
-      and 2, today's wordle was "story". Sorry for spoilers.
-    </p>
-    
-    <p
-      style="
-        display: block;
-        width: 200px;
-        background-color: #eeeeee;
-        margin: auto;
-        padding: 15px;
-        border-radius: 15px;
-      "
-    >
-      Wordle 317 2/6<br />
-      ⬜⬜⬜⬜⬜<br />
-      🟩🟩🟩🟩🟩
-    </p>
-
-    <p>
-      To contrast what I said at the start, there is a good reason for this
-      email change. And that is for better organization and for duplicate names.
-      The only reason I wrote this blog post about something this stupid is
-      because like I said earlier, 5th period is unbelievably boring.
-    </p>
-
-    <p>
-      So uh, thanks for reading I guess. I hope you enjoyed reading an idiot
-      complain about the stupidest thing ever.
-    </p>
-
-    <p>Goodbye.</p>
   </body>
 </html>
