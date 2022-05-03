@@ -64,10 +64,18 @@ a{
   }
   h1 {
     font-size: 40px;
+    letter-spacing: -2px;
   }
   p {
     width: 100%;
-    
+  }
+  img{
+    width: 90%;
+  }
+  pre{
+    width: 90%;
+    overflow: auto;
+    display: block;
   }
 
 }
