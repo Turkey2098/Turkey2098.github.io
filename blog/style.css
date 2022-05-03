@@ -64,6 +64,7 @@ button{
   cursor: pointer;
   border: 4px solid #0F202F;
   border-radius: 10px;
+  color: black;
 
 }
 
@@ -84,7 +85,7 @@ td{
 
 .homeButton{
   border: 0px;
-  width: 40%;
+  width: 160px;
   margin: auto;
   cursor: pointer;
 }
@@ -121,4 +122,16 @@ td{
     display: block;
   }
 
+}
+@media (max-width: 500px) {
+  .homeButton{
+    width: 100px;
+  }
+  
+  button{
+    font-size: 15px;
+    padding: 6px 12px;
+    
+  }
+  
 }

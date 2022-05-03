@@ -1,1 +1,0 @@
-window.location.replace("/blog/1/")
