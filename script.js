@@ -1,1 +1,1 @@
-window.location.replace("/blog/1.html")
+window.location.replace("/blog/1/")
