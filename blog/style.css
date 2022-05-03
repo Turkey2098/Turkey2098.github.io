@@ -1,5 +1,5 @@
 body {
-  padding: 60px 100px;
+  padding: 60px 15px;
   margin: auto;
   color: black;
   background-color: #343a40;
@@ -12,14 +12,16 @@ h1 {
   text-align: center;
   font-family: lucid;
   color: #82AED6;
-  font-size: 50px;
+  font-size: 60px;
+  width: 85%;
+  margin: auto;
 }
 p {
   text-align: center;
   font-size: 25px;
   font-family: "Radio Canada", sans-serif;
   line-height: 1.25;
-  width: 75%;
+  width: 70%;
   margin-inline: auto;
   color: #c8dbed;
 }
