@@ -2,7 +2,7 @@ body {
   padding: 60px 100px;
   margin: auto;
   color: black;
-  background-color: #F5E9CD;
+  background-color: #
 }
 @font-face {
   font-family: lucid;
@@ -11,7 +11,7 @@ body {
 h1 {
   text-align: center;
   font-family: lucid;
-  color: #BD3B1F;
+  color: #;
   font-size: 50px;
 }
 p {
@@ -21,13 +21,13 @@ p {
   line-height: 1.25;
   width: 75%;
   margin-inline: auto;
-  color: #CC7E00;
+  color: #
 }
 .date {
   font-size: 20px;
   font-family: "Radio Canada", sans-serif;
   opacity: .7;
-  color: #E2B147;
+  color: #
 }
 img {
   border: 4px solid black;
@@ -49,7 +49,7 @@ pre {
 }
 
 a{
-  color: #D2BF94; 
+  color: #
 }
 
 @media (max-width: 1300px) {
