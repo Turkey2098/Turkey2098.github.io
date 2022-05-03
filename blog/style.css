@@ -53,6 +53,27 @@ a{
   color: #538FC7;
 }
 
+button{
+  display: block;
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover{
+  transition-duration: .4s;
+  background-color: #92b6db;
+  color:white;
+  transform: scale(1.04);
+}
+
 @media (max-width: 1300px) {
   body {
     padding: 30px;
