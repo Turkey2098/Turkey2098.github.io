@@ -1,5 +1,22 @@
 body{
   background-color: #343a40;
+  margin: 0px;
 }
 
-a
+.navbar{
+  display: block;
+  font-size: 35px;
+  background-color: #E4EDF6;
+  cursor: pointer;
+  color: black;
+  padding-top: 5px;
+  
+}
+
+a{
+  padding-left: 10px;
+}
+img{
+  width: 75px;
+  padding-left: 5px;
+}
