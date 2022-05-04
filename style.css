@@ -19,6 +19,7 @@ a{
   overflow: hidden;
   padding-bottom: 10px;
   cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 img{
