@@ -12,6 +12,7 @@ img{
   padding-left: 5px;
   padding-right: 15px;
   padding-top: 5px;
+  cursor: pointer;
 }
 .topnav {
   background-color: #333333;
@@ -30,11 +31,5 @@ img{
 
 
 .topnav a:hover {
-  background-color: #dddddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  opacity: 0.6;
 }
