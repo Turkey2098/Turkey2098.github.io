@@ -40,89 +40,45 @@ h1 {
 html {
   font-size: 16px;
   word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-}
-*,
-:after,
-:before {
-  box-sizing: border-box;
-  margin: 0;
 }
 .simple-page {
   background: #f1f2f6;
 }
-.pw_report_ad_container {
-  display: none !important;
-}
-.container[data-v-2c15efda] {
+.container {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  color: #333;
+  color: #333333;
 }
-.follow-block[data-v-2c15efda] {
-  background-color: #fff;
+.follow-block {
+  background-color: #ffffff;
   font-size: 20px;
   text-align: center;
   margin-bottom: 37px;
 }
-.posts[data-v-2c15efda] {
+.posts {
   display: grid;
   margin-top: 10px;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 15px 15px;
 }
-.site-title[data-v-2c15efda] {
-  font-size: 54px;
-  text-align: center;
-  padding-top: 60px;
-  margin-bottom: 35px;
-  font-weight: 700;
-  color: #333;
-}
 @media only screen and (max-width: 800px) {
-  .posts[data-v-2c15efda] {
+  .posts {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 12px;
     padding: 0 8px;
   }
-  .site-title[data-v-2c15efda] {
-    padding-top: 45px;
-    font-size: 48px;
-  }
-  .made-by[data-v-2c15efda],
-  .site-title[data-v-2c15efda] {
-    margin-bottom: 30px;
-  }
 }
 .page-wrapper {
   position: relative;
-  background: #fff;
+  background: #ffffff;
   height: 160px;
   overflow: hidden;
   border-radius: 7px;
 }
-@-webkit-keyframes background-move {
-  0% {
-    background-position: 50%;
-  }
-  to {
-    background-position: -1000px;
-  }
-}
-@keyframes background-move {
-  0% {
-    background-position: 50%;
-  }
-  to {
-    background-position: -1000px;
-  }
-}
+
 .link-background {
   background-repeat: repeat, no-repeat;
   background-color: #ededed;
@@ -135,12 +91,9 @@ html {
   top: 0;
   z-index: 1;
 }
-.link-background:hover {
-  -webkit-animation: background-move 50s linear infinite forwards;
-  animation: background-move 50s linear infinite forwards;
-}
+
 .link-title {
-  background: #fff;
+  background: #ffffff;
   padding: 14px 20px;
   font-weight: 700;
   position: absolute;
@@ -154,11 +107,5 @@ html {
   display: flex;
   align-items: flex-end;
   z-index: 2;
-  color: #333 !important;
-}
-@media only screen and (max-width: 600px) {
-  .link-background:hover {
-    -webkit-animation: none;
-    animation: none;
-  }
+  color: #333333 !important;
 }
