@@ -127,9 +127,3 @@ html {
 .link-background:hover + .link-title{
   opacity: 1;
 }
-@media only screen and (max-width: 600px) {
-  .link-background:hover {
-    -webkit-animation: none;
-    animation: none;
-  }
-}
