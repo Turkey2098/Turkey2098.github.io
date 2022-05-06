@@ -8,6 +8,4 @@ git push -u origin master
 
 
 
-change the next and previous button to work on both github and co.vu
-
 make a blog about color palattes

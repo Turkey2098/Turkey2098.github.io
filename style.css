@@ -21,7 +21,7 @@ img{
 .topnav a {
   display: inline-block;
   overflow: hidden;
-  color: #f2f2f2;
+  color: #CFDCEE;
   padding: 10px 12px;
   font-size: 25px;
   cursor: pointer;
@@ -32,4 +32,11 @@ img{
 
 .topnav a:hover {
   opacity: 0.6;
+}
+
+h1{
+  text-align: center;
+  color: #b4c9e4;
+  font-family: 'Ubuntu', sans-serif;
+
 }
