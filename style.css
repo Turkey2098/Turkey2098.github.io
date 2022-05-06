@@ -124,7 +124,7 @@ html {
   color: #333333 !important;
   opacity: 0
 }
-.link-title .link-background:hover{
+.link-background:hover + .link-title{
   opacity: 1;
 }
 @media only screen and (max-width: 600px) {
