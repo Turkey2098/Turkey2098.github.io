@@ -38,13 +38,57 @@ h1 {
   font-family: "Ubuntu", sans-serif;
 }
 
-.backgroundImg{
-  width: 25%;
-
-  left: 100px;
-  
+.container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
 }
-
-.post{
-  border: 4px solid #0F202F;
+.post {
+  text-decoration: none;
+  background-color: #008066;
+  color: #272727;
+  width: 25%;
+  display: inline-block;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.25s;
+  margin: 30px;
+  align-self: flex-start;
+}
+.post:hover {
+  transform: scale(1.05);
+}
+.post img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border: 5px solid #008066;
+}
+.info {
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.headline {
+  font-size: 25px;
+  margin: 5px 0px;
+}
+.date {
+  font-family: "Roboto Mono", monospace;
+  color: #727272;
+  margin: 5px 0px;
+}
+.text {
+  background-color: white;
+  color: #272727;
+  border-radius: 15px;
+  width: 100%;
+  padding: 50px;
+}
+.text .date {
+  font-size: 20px;
+  text-align: center;
 }
