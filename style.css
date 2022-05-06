@@ -37,74 +37,14 @@ h1 {
   color: #b4c9e4;
   font-family: "Ubuntu", sans-serif;
 }
-html {
-  font-size: 16px;
-  word-spacing: 1px;
-  box-sizing: border-box;
-  font-family: Roboto, sans-serif;
-}
-.simple-page {
-  background: #f1f2f6;
-}
-.container {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-}
-.follow-block {
-  background-color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 37px;
-}
-.posts {
-  display: grid;
-  margin-top: 10px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 15px 15px;
-}
-@media only screen and (max-width: 800px) {
-  .posts {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 12px;
-    padding: 0 8px;
-  }
-}
-.page-wrapper {
-  position: relative;
-  background: #ffffff;
-  height: 160px;
-  overflow: hidden;
-  border-radius: 7px;
+
+.backgroundImg{
+  width: 25%;
+
+  left: 100px;
+  
 }
 
-.link-background {
-  background-color: #ededed;
-  background-position: 50%;
-  background-size: auto 100%;
-  height: 160px;
-  width: 100%;
-  position: static;
-  left: 0;
-  top: 0;
-  z-index: 1;
+.post{
   border: 4px solid #0F202F;
-}
-
-.link-title {
-  background: #ffffff;
-  padding: 14px 20px;
-  font-weight: 700;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  pointer-events: none;
-  white-space: nowrap;
-  font-size: 22px;
-  border-radius: 5px;
-  display: flex;
-  align-items: flex-end;
-  z-index: 2;
-  color: #333333 !important;
 }
