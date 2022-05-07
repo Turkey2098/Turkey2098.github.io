@@ -116,29 +116,8 @@ h1 {
   opacity: 0;
   font-size: 16px;
   font-family: Roboto, sans-serif;
+  text-align: center;
 }
-
-.link-date {
-  background: #ffffff;
-  padding: 14px 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  white-space: nowrap;
-  font-size: 10px;
-  border-radius: 5px;
-  display: flex;
-  align-items: flex-end;
-  z-index: 2;
-  color: #333333 !important;
-  opacity: 0;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-}
-
 .link-title:hover{
   opacity: 1;
 }
