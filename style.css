@@ -58,7 +58,19 @@ h1 {
     padding: 0 8px;
     grid-template-columns: repeat(2, 1fr);
   }
-}
+  
+  .topnav a{
+    padding: 9px 6px;
+    font-size: 15px;
+  }
+  
+  img {
+    width: 45px;
+    padding-left: 3px;
+    padding-right: 8px;
+    padding-top: 3px;
+  }
+} 
 
 @media only screen and (max-width: 500px) {
   .posts {
