@@ -30,6 +30,7 @@ body {
 
 .topnav a:hover {
   opacity: 0.6;
+  transition: 0.4s;
 }
 
 h1 {
@@ -120,9 +121,15 @@ h1 {
 }
 .link-title:hover{
   opacity: 1;
+  transition: .4s;
 }
 .link-background:hover + .link-title{
   opacity: 1;
+  transition: .4s;
+}
+.link-background:hover{
+  opacity: 0.5;
+  transition: .4s;
 }
 
 
