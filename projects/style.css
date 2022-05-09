@@ -37,6 +37,9 @@ h1 {
   color: #b4c9e4;
   font-family: "Ubuntu", sans-serif;
   font-size: 50px;
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
 }
 
 h2{
@@ -44,13 +47,20 @@ h2{
   color: #BFD1E8;
   font-family: "Ubuntu", sans-serif;
   font-size: 32px;
-  font-weight: normal
+  font-weight: normal;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
 }
 p{
   text-align: center;
   color: #D4E0F0;
   font-family: "Ubuntu", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 1.4;
 }
 
 @media only screen and (max-width: 800px) {
