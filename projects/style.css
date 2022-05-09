@@ -17,6 +17,10 @@ body {
   background-color: #333333;
 }
 
+a{
+  color: #5E8BC5;
+}
+
 .topnav a {
   display: inline-block;
   overflow: hidden;
@@ -62,6 +66,7 @@ p{
   margin-top: 20px;
   line-height: 1.4;
 }
+
 
 @media only screen and (max-width: 800px) {
   
