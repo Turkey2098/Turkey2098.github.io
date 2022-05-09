@@ -17,6 +17,10 @@ body {
   background-color: #333333;
 }
 
+.links{
+  font-size: 15px;
+}
+
 a{
   color: #4CB3E6;
   text-decoration: none;
