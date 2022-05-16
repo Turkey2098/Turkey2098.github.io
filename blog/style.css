@@ -55,6 +55,11 @@ pre {
 
 a{
   color: #538FC7;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 h2{
