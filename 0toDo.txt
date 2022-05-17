@@ -8,4 +8,4 @@ git push -u origin master
 
 
 
-make a blog about color palattes
+project --> f1 ornament
