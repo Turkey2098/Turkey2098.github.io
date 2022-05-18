@@ -1,15 +1,7 @@
-
-function previous() {
-  var x = window.location.pathname.split('/')
-  var y = x[2]
-  var z = y-1
-  window.location.replace(z)
+var x=parseInt(location.pathname.split('/')[2])
+function next(){
+location.href='/blog/'+(x+1)
 }
-
-function next() {
-  var x = window.location.pathname.split('/')
-  var y = x[2]
-  var z = y-y
-  var a = (z+(1*y))+1
-  window.location.replace(a)
+function previous(){
+location.href='/blog/'+(x-1)
 }
