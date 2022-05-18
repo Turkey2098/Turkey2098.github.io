@@ -44,7 +44,7 @@ hr{
 
 h1 {
   text-align: center;
-  color: #497BBD;
+  color: #5E8BC5;
   font-family: "Ubuntu", sans-serif;
   font-size: 50px;
 }
@@ -56,6 +56,12 @@ p{
   width: 70%;
   margin: auto;
   font-size: 30px;
+}
+
+button{
+  text-align: center;
+  margin: auto;
+  left: 50%;
 }
 
 .container {
