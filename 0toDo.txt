@@ -8,4 +8,6 @@ git push -u origin master
 
 
 
-make a blog about color palattes
+project --> f1 ornament
+create a drop down menu on my blogs and projects on my home page
+21 game
