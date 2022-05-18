@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@font-face {
+  font-family: lucid;
+  src: url("https://cdn.glitch.global/e23c6d22-e86e-4765-a3d2-14f786559329/Euclid%20Circular%20A%20Medium.ttf?v=1651332812845");
+}
 
 
 body {
@@ -62,17 +66,18 @@ button{
   text-align: center;
   margin-top: 20px;
   border: 3px solid #4275B7;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: #BACDE6;
-  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  background-color: #A3BCDE;
+  font-size: 25px;
   color: white;
-  cursor: pointer
+  cursor: pointer;
+  font-family: "lucid";
 }
 
 button:hover{
   transition-duration: .4s;
-  transform: scale(1.06);
+  transform: scale(1.08);
 }
 
 .home-container{
