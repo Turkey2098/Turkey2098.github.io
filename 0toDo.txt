@@ -10,3 +10,4 @@ git push -u origin master
 
 project --> f1 ornament
 21 game
+work on social links on navbar
