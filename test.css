@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @font-face {
   font-family: lucid;
   src: url("https://cdn.glitch.global/e23c6d22-e86e-4765-a3d2-14f786559329/Euclid%20Circular%20A%20Medium.ttf?v=1651332812845");
 }
-
 
 body {
   background-color: #343a40;
@@ -40,7 +39,7 @@ body {
   transition: 0.4s;
 }
 
-hr{
+hr {
   width: 50%;
   margin: 40px;
   margin-inline: auto;
@@ -48,12 +47,12 @@ hr{
 
 h1 {
   text-align: center;
-  color: #5E8BC5;
+  color: #5e8bc5;
   font-family: "Ubuntu", sans-serif;
   font-size: 50px;
 }
 
-p{
+p {
   text-align: center;
   color: #b4c9e4;
   font-family: "rubik", sans-serif;
@@ -62,25 +61,25 @@ p{
   font-size: 30px;
 }
 
-.homeLink{
+.homeLink {
   text-align: center;
   margin-top: 20px;
-  border: 3px solid #4275B7;
+  border: 3px solid #4275b7;
   padding: 10px 15px;
   border-radius: 15px;
-  background-color: #A3BCDE;
+  background-color: #a3bcde;
   font-size: 25px;
   color: white;
   cursor: pointer;
   font-family: "lucid";
 }
 
-.homeLink:hover{
-  transition-duration: .4s;
+.homeLink:hover {
+  transition-duration: 0.4s;
   transform: scale(1.08);
 }
 
-.home-container{
+.home-container {
   text-align: center;
 }
 
@@ -89,7 +88,6 @@ p{
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  
 }
 
 .posts {
@@ -105,19 +103,19 @@ p{
     padding: 0 8px;
     grid-template-columns: repeat(2, 1fr);
   }
-  
-  .topnav a{
+
+  .topnav a {
     padding: 10px 7px;
     font-size: 20px;
   }
-  
+
   .homeImg {
     width: 45px;
     padding-left: 3px;
     padding-right: 8px;
     padding-top: 3px;
   }
-} 
+}
 
 @media only screen and (max-width: 500px) {
   .posts {
@@ -125,13 +123,13 @@ p{
     padding: 0 8px;
     grid-template-columns: repeat(1, 2fr);
   }
-  
-  .topnav a{
+
+  .topnav a {
     padding: 9px 6px;
     font-size: 15px;
   }
 }
-  
+
 .page-wrapper {
   position: relative;
   background: #ffffff;
@@ -141,7 +139,7 @@ p{
 }
 
 .link-background {
-  background-color: #E2EAF5;
+  background-color: #e2eaf5;
   background-position: 50%;
   background-size: auto 100%;
   height: 160px;
@@ -170,58 +168,36 @@ p{
   font-family: Roboto, sans-serif;
   text-align: center;
 }
-.link-title:hover{
+.link-title:hover {
   opacity: 1;
-  transition: .4s;
+  transition: 0.4s;
 }
-.link-background:hover + .link-title{
+.link-background:hover + .link-title {
   opacity: 1;
-  transition: .4s;
+  transition: 0.4s;
 }
-.link-background:hover{
+.link-background:hover {
   opacity: 0.5;
-  transition: .4s;
+  transition: 0.4s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .collapsible {
-  background-color: #777777;
-  color: white;
+  background-color: transparent;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
+  padding: 0px;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555555;
+  color: #5e8bc5;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 50px;
 }
 
 .collapsible:after {
-  content: '\002B';
+  content: "\002B";
   color: white;
   font-weight: bold;
-  float: right;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .active:after {
@@ -233,5 +209,4 @@ p{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
 }
