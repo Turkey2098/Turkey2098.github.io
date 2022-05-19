@@ -209,6 +209,8 @@ p {
   color: #5e8bc5;
   font-family: "Ubuntu", sans-serif;
   font-size: 50px;
+  margin-inline: auto;
+  width: 50%;
 }
 
 .collapsible:after {
