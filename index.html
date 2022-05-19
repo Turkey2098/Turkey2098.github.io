@@ -10,6 +10,18 @@
     <title>Turkey2098</title>
     <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
+    <script
+      src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      async=""
+    ></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: "dbdb36aa-9541-47c0-b6a0-80f478b4ee26",
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="topnav">
@@ -22,17 +34,8 @@
       <a href="/projects.html">Projects</a>
       <a href="/blogs.html">Blog</a>
       <div class="dropdown">
-        <button class="dropbtn">
-          Links
-        </button>
+        <button class="dropbtn">Links</button>
         <div class="dropdown-content">
-          <a href="https://github.com/Turkey2098">Github</a>
-          <a href="https://glitch.com/@Turkey2098">Glitch</a>
-        </div>
-      </div>
-      <div class="profileDropdown" style="float:right">
-        <button class="dropbtn"><img src="https://cdn.glitch.global/7d1a1b38-8d2d-4542-b5ac-650c6eb984d3/Screenshot_2022-05-19_4.22.29_PM-removebg-preview.png?v=1652991790693"/></button>
-        <div class="dropdown-content" style="float:right">
           <a href="https://github.com/Turkey2098">Github</a>
           <a href="https://glitch.com/@Turkey2098">Glitch</a>
         </div>
@@ -61,7 +64,12 @@
           and many more smaller projects. Feel free to check them out.
         </p>
 
-        <button onclick="window.location.replace('/projects.html')" class="homeLink">My Projects</button>
+        <button
+          onclick="window.location.replace('/projects.html')"
+          class="homeLink"
+        >
+          My Projects
+        </button>
       </div>
 
       <hr />
@@ -76,7 +84,12 @@
           the occasional memes, and snippets of code. Give them a try.
         </p>
 
-        <button onclick="window.location.replace('/blogs.html')" class="homeLink">My Blogs</button>
+        <button
+          onclick="window.location.replace('/blogs.html')"
+          class="homeLink"
+        >
+          My Blogs
+        </button>
       </div>
     </div>
 
